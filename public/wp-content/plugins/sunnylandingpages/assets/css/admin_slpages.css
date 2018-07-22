@@ -1,0 +1,286 @@
+.hidden
+{
+	display: none;
+}
+
+#slpages_meta_box.postbox
+{
+	margin-top: -20px;
+}
+
+.slpages_post_name a.submitdelete,
+.slpages_post_name a.submitdelete:visited
+{
+	color: #FF5151;
+}
+
+.slpages_post_name .submitdelete:hover
+{
+	color: #FF5E5B;
+}
+
+.post-type-slpages_post #submitdiv #minor-publishing-actions
+{
+	display: none;
+}
+
+.post-type-slpages_post #submitdiv #misc-publishing-actions
+{
+	display: none;
+}
+
+.column-slpages_post_preview
+{
+	width: 210px;
+}
+
+.column-slpages_post_preview a:focus,
+.column-slpages_post_preview a:active,
+.column-slpages_post_preview a:hover
+{
+	box-shadow: none;
+}
+
+.column-slpages_post_preview a
+{
+	max-height: 400px;
+	display: block;
+	overflow: hidden;
+}
+
+.column-slpages_post_stats
+{
+	width: 330px;
+}
+
+th.column-slpages_post_visits,
+th.column-slpages_post_conversions,
+th.column-slpages_post_conversion_rate,
+th.column-post_status,
+td.column-slpages_post_visits,
+td.column-slpages_post_conversions,
+td.column-post_status,
+td.column-slpages_post_conversion_rate
+{
+	text-align: center;
+	width: 110px;
+}
+
+img.slpages-post-preview-image
+{
+	max-width: 200px;
+}
+
+th.manage-column a.slpages-hide-stats
+{
+	color: #2C739D;
+}
+
+th.manage-column a.slpages-hide-stats:hover
+{
+	text-decoration: underline;
+}
+
+th.manage-column a.slpages-hide-stats:hover,
+th.manage-column a.slpages-hide-stats:active,
+th.manage-column a.slpages-hide-stats:focus,
+th.manage-column a.slpages-hide-stats:visited
+{
+	outline: none;
+	box-shadow: none;
+}
+
+.slpages-index-page-stats .variation
+{
+	display: block;
+	margin: 5px 0;
+	padding: 5px;
+}
+
+.slpages-index-page-stats .variation.green
+{
+	background: #E8FAC8;
+}
+
+.slpages-index-page-stats .variation.red
+{
+	background: #F5DDDC;
+}
+
+.slpages-index-page-stats .variation.paused .variation-stats
+{
+	color: #A69C9A;
+}
+
+.slpages-index-page-stats .variation-name
+{
+	display: inline-block;
+	border: 1px solid #555;
+	font-weight: bold;
+	width: 20px;
+	text-align: center;
+}
+
+.slpages-index-page-stats .variation-stats
+{
+	display: inline-block;
+	margin-left: 10px;
+	width: 225px;
+}
+
+.slpages-index-page-stats .variation-conversion-rate
+{
+	display: inline-block;
+	color: #fff;
+	font-weight: bold;
+	padding: 3px 6px;
+	border-radius: 3px;
+	background: #3c91c3; /* Old browsers */
+	background: -moz-linear-gradient( top,  #3c91c3 0%, #296d96 100% ); /* FF3.6+ */
+	background: -webkit-gradient( linear, left top, left bottom, color-stop( 0%,#3c91c3 ), color-stop( 100%, #296d96 ) ); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient( top,  #3c91c3 0%, #296d96 100% ); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient( top, #3c91c3 0%, #296d96 100% ); /* Opera 11.10+ */
+	background: -ms-linear-gradient( top, #3c91c3 0%, #296d96 100% ); /* IE10+ */
+	background: linear-gradient( to bottom, #3c91c3 0%, #296d96 100% ); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c91c3', endColorstr='#296d96', GradientType=0 ); /* IE6-9 */
+}
+
+#slpages_meta_box .row-fluid.form-horizontal .control-group
+{
+	margin-top: 20px;
+}
+
+#slpages_meta_box .slpages-bottom-links
+{
+	margin-top: 30px;
+	padding: 20px 0;
+	border-top: 1px solid #d2d2d2;
+	text-align: right;
+}
+
+#slpages_meta_box label.control-label
+{
+	color: #333333;
+	font-family: "Open Sans",sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+#slpages_meta_box .input-xlarge
+{
+	background: none repeat scroll 0 0 #f0f0f0;
+	border: 1px solid #d2d2d2;
+	color: #333;
+	font-family: "Open Sans",sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 8px;
+	padding: 8px 6px;
+	border-radius: 4px;
+	height: 42px;
+	min-width: 350px;
+}
+
+#slpages_meta_box .input-prepend .add-on
+{
+	position: absolute;
+	margin: 20px 0 0 8px;
+	font-family: "Open Sans",sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+#slpages_meta_box #slpages_slug
+{
+	padding-left: 226px;
+	width: 650px;
+}
+
+#slpages_meta_box .page-title
+{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.column-slpages_post_name .slpages-warning strong a,
+.column-slpages_post_name .slpages-warning strong a:visited
+{
+	color: #DD3D36;
+}
+
+.postbox-container #delete-action
+{
+	display: none;
+}
+
+.type-slpages_post .slpages_post_stats .stat-loader
+{
+	background: url( '../img/loading_circle_dark.svg' ) no-repeat center left;
+	background-size: 20px 20px;
+	padding: 5px 5px 5px 25px;
+}
+
+.type-slpages_post .slpages_post_stats .stat-loader.loaded
+{
+	display: none;
+}
+
+.inline-edit-slpages_post .inline-edit-col-forth{
+	width:20% !important;
+}
+.inline-edit-slpages_post .inline-edit-col-top{
+	position:relative;
+	top:-20px;
+	padding-left: 8px !important;
+}
+
+.inline-edit-slpages_post .inline-edit-col{
+	position:relative;
+	top:8px;
+}
+
+.inline-edit-slpages_post .inline-edit-col-right{
+	margin-top:0px !important;
+}
+
+.inline-edit-slpages_post .inline-edit-col div.inline-edit-col{
+	float:right;
+}
+.inline-edit-slpages_post div.inline-edit-group span.title{
+	font-weight: bold;
+    font-style: normal;
+}
+.inline-edit-slpages_post .slp-page-title{
+	color: #0f93d2;
+    font-weight: 500;
+    font-size: 13px;
+ }
+ 
+ .inline-edit-slpages_post .submit.inline-edit-save button{
+	 float:right !important;
+	 margin-left: 20px;
+ }
+ 
+ #slpages_slug,#post_type,#slpages_my_selected_page,#slpages_name,.post_type.column-post_type,.slpages_slug.column-slpages_slug,.slpages_my_selected_page.column-slpages_my_selected_page,.slpages_name.column-slpages_name,.manage-column.column-slpages_slug,.manage-column.column-post_type,.manage-column.column-slpages_my_selected_page,.manage-column.column-slpages_name{
+	 display:none !important;
+ }
+ 
+ .slpages-error{
+	 color:#FF5151;
+ }
+ 
+ .slpages-button-danger{
+	color: #fff !important;
+    background-color: #d9534f !important;
+    border-color: #d43f3a !important;
+    margin-top: -28px !important;
+    margin-right: 170px !important;
+    float: right;
+ }
+ 
+.inline-edit-slpages_post .inline-edit-col-42{
+	 width:42% !important;
+ }
+ 
