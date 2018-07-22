@@ -2,9 +2,9 @@
 </div>
 <footer class="main-footer">
     <div class="content-footer">
-        <?php if (has_nav_menu('bottom')) : ?>
-            <?php echo get_menu_footer_with_tur_classes(); ?>
-        <?php endif; ?>
+        <?php if (has_nav_menu('bottom')) {
+            echo get_menu_footer_with_tur_classes();
+        } ?>
         <div class="copyright-wrap">
             <div class="copyright-text">Туристик
                 <a href="<?php echo esc_url(home_url('/')); ?>" class="copyright-text__link"> loftschool <?php echo date('Y'); ?></a>
